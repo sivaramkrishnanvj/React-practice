@@ -8,7 +8,7 @@ function Carditems (props){
         <div class="fw-bold">{props.item.name}</div>
         {props.item.price}
       </div>
-      <button onClick={()=>props.remove(props.items)}  class="badge bg-primary rounded-pill">Remove</button>
+      <button onClick={()=>props.remove(props.item)}  class="badge bg-primary rounded-pill">Remove</button>
     </li>
   
   )
