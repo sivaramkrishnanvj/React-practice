@@ -9,7 +9,7 @@ function Product(props){
       <h5 className="card-title">{props.pdata.name}</h5>
       <h6>{props.pdata.price}</h6>
       <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <button onClick={()=>props.pricedata(props.pdata)} className="btn btn-primary">Add to cart</button>
+      <button onClick={()=>props.pricedata(props.pdata)} className="btn btn-primary">Add to carts</button>
     </div>
     </div>
     </div>
